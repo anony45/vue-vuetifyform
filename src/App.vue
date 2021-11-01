@@ -10,8 +10,8 @@
        </v-app-bar>
 
      <br>
-      <div>
-        <v-app-bar class="orange white--text" height="200">  <v-toolbar-title class="white--text flex text-center"><h2> Sign-up for Membership Here</h2> <br/> 
+          <div>
+        <v-app-bar class="orange white--text" height="310">  <v-toolbar-title class="white--text flex text-center"><h2> Sign-up for Membership Here</h2> <br/> 
           <h4 class="font-weight-regular">Please complete the form below to join Coast People's Forum. Once you register, your membership will be approved by the admin and you will be able to access our Members Portal</h4>
           </v-toolbar-title>      
          </v-app-bar>

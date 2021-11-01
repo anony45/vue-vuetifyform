@@ -1,9 +1,10 @@
 <template>
   <v-app>
     <v-main   >
-    
+    <v-row class="center" justify='center'>
+    <v-col cols='10' sm='8'>
       <v-form >
-        <v-row align="center" justify="space-around">
+        <v-row class="center" justify='center'>
         <v-col >
         <v-col cols="11" sm="8">
 
@@ -13,11 +14,11 @@
       </v-text-field>
 
       <v-row >
-        <v-col cols="12" sm="4">
+        <v-col cols="12" sm="3">
           
            <v-select v-model="countrycode" label="Country Code" outlined dense color="orange" ></v-select>
         </v-col>
-        <v-col cols="12" sm="8">
+        <v-col cols="12" sm="9">
           <v-text-field v-model="phonenumber" label="Phone number" required outlined dense color="orange">
           </v-text-field>
          </v-col>
@@ -32,7 +33,7 @@
       </v-select>
        <v-text-field v-model="password" label="Password" :rules="passwordRules" required outlined dense color="orange">
       </v-text-field>
-       <v-text-field v-model="confirmpassword" label="Confirm Password" :rules="[(password === confirmPassword) || 'Password must match']" required outlined dense color="orange">
+       <v-text-field v-model="confirmpassword" label="Confirm Password" :rules="[(password === confirmpassword) || 'Password must match']" required outlined dense color="orange">
       </v-text-field>
      
     
@@ -47,7 +48,11 @@
     </v-row>  
     
     </v-form>
-   
+      
+    </v-col>
+    
+    
+    </v-row>
     </v-main>
   
   
